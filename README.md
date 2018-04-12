@@ -1,3 +1,2 @@
 # Web server SQLite
-Aggiungere un tag "<sql" all'HTML standard
-Prima di inviare una pagina web, il programma legge cosa sta inviando e se trova il tag "sql" aggiunge una table al db
+Riceve una richiesta di pagina web, preleva la pagina web, se è presente una query (indicata dal tag "<sql") esegue la query, incoda i risultati e invia il tutto al browser
